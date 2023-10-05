@@ -1,0 +1,414 @@
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.main {
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+    background-image: url(../Images/sitedd.jpg);
+    width: 100vw;
+
+}
+
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: 000000;
+    position: fixed;
+    position: absolute;
+}
+.logo {
+    height: 100%;
+    margin-left: 40px;
+    width: 250px;
+    float: left;
+
+}
+
+.item  {
+    float: right;
+    list-style-type: none;
+    margin-right: 60px;
+    /* font-family: 'Creepster', cursive; */
+    cursor: pointer;
+}
+
+.item li {
+    display: inline-block;
+    border-bottom:#f5c15e 1px solid;
+    color: #f5c15e;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 23px;
+    opacity: 0.9;  
+}
+.item:hover li {
+    opacity: 1.5;
+}
+.home-content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    display: inline;
+}
+.homet {
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.homep {
+    color: #f5c15e;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+.btn {
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-top: 2;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+.btn1 {
+    border: 3px #f5c15e solid;
+    color: #f5c15e;
+background-color: black;
+
+
+}
+.btn2 {
+    background-color: black;
+    color: #f5c15e;
+    border: 3px #f5c15e solid;
+}
+.btn:hover {
+    padding: 10px;
+}
+/* ---------------------------------------------------------------------------- */
+.bdy1 {
+    padding: 80px 0;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.bdy1-c {
+    text-align: center;
+
+}
+.bdy1-h {
+    font-size: 65px;
+    display: inline;
+}
+.bdy1-s {
+    font-size: 30;
+}
+.bdy1-un {
+    width: 80px;
+    background-color: black;
+    height: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.about-content {
+    height: 380px;
+    overflow: auto;
+}
+.firstd {
+    float: left;
+    width: 30%;
+    text-align: center;
+    border: gray solid 2px;
+    padding: 30px 15px;
+    text-align: center;
+}
+.hf {
+    margin: 0 5%;
+}
+.img-s2 {
+    position: relative;
+    width: 93%;
+    margin: auto;
+    background-color: #f5c15e;
+}
+.img-s2 img {
+    width: 100%;
+}
+.icimg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+.info-s2 {
+    font-family: 'Dela Gothic One', cursive;
+font-family: 'Permanent Marker', cursive;
+}
+.icimg a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    margin-left: auto;
+}
+.lin {
+    color:  #0072b1 ;
+}
+.fb {
+    color: #3b5998;
+}
+.tw {
+    color: #00acee;
+}
+.icimg a i {
+    line-height: 35px;
+}
+.titles1 {
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+.jops1 {
+    text-transform: capitalize;
+    color: rgb(66, 63, 63);
+}
+.titles1:hover  {
+    color: #f5c15e  ;
+}
+.firstd:hover .icimg  {
+    visibility: visible;
+}
+.icimg:hover a {
+    font-size: 25;
+}
+/* -------------------------------------------------- */
+.main3-3 {
+    padding: 50px 0;
+    background-image: url(../Images/sitedd.jpg);
+
+
+}
+.header-3 {
+    text-align: center;
+}
+.info-3 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.un-3 {
+    height: 9px;
+    width: 78px;
+    background-color:#f5c15e;
+    display: block;
+    margin: 0 auto 70 auto;
+    margin-top: -18px;
+}
+.cont-3 {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.item-3 {
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: capitalize;
+}
+.item3 img {
+    width: 80%;
+}
+.half {
+    margin: 0 5%;
+}
+.layer-item3 {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+.item-3 a {
+    display: inline-block;
+    width: 21px;
+    margin-left: 10px;
+    height: 22px;
+    position: relative;
+    color: white;
+    top: 15px;
+    font-size: 23px;
+}
+.layer-title {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+}
+.info3-layer {
+    position: absolute;
+    left: 50%;
+    top: 74%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.item-3:hover  .layer-item3{
+    visibility: visible;
+}
+.main-4 {
+    padding: 50px 0;
+}
+.cont-4 {
+    margin: auto;
+    width: 80%;
+}
+.item-4 {
+    width: 50%;
+    float: left;
+}
+.un-4 {
+    height: 9;
+    width: 70px;
+    background-color:#f5c15e;
+    display: block;
+}
+.title-dis {
+    font-size: 25px;
+}
+.title-4 {
+    font-size: 35px;
+}
+.list-4 {
+    list-style: none;
+    margin-left: 10px;
+    color: rgb(81 78 78);
+}
+.list-4 li {
+    margin-bottom: 17px;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.list-4 li i {
+    color: #f5c15e;
+}
+.header-4 {
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+.item4-img {
+    width: 50%;
+    float: left;
+}
+.item4-img img {
+    margin-left: 125px;
+    margin-top: 130px;
+}
+.clear {
+    clear: both;
+}
+.bullets {
+    list-style: none;
+    text-align: center;
+    margin-left: 123px;
+}
+.bullets li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #a8a8a8;
+    margin: 10px 5px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.last-5 {
+    position: relative;
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../Images/attach.jpg);
+}
+.last-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.cont-5 {
+    width: 80%;
+    margin: auto;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+.last-ic {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 107px;
+}
+.icon {
+    margin-bottom: 15px;
+    color: #f5c15e;
+    font-size: 2em;
+}
+.ic-title {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.num-li {
+    color: white;
+}
+.last-overlay {
+    text-align: center;
+}
+.last-i {
+    overflow: auto;
+}
+.clear {
+    clear: both;
+}
+.footer {
+    height: 300px;
+    text-align: center;
+    background-color: #898282;
+}
+.footer-links {
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+}
+.footer p {
+    font-size: 30px;
+}
